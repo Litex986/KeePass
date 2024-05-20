@@ -40,7 +40,7 @@ Le générateur de mots de passe crée des mots de passe de 29 caractères compr
 - 6 chiffres (`"0123456789"`)
 - 6 caractères minuscules (`"azertyuiopqsdfghjklmwxcvbn"`)
 - 6 caractères majuscules (`"AZERTYUIOPQSDFGHJKLMWXCVBN"`)
-- 6 caractères spéciaux (`"!»#$%&'()*+,-./:;<=>?@[\]^_`{|}~"`)
+- 6 caractères spéciaux (```"!»#$%&'()*+,-./:;<=>?@[\]^_`{|}~"```)
 - 5 caractères dérivés du hash (SHA512) du deuxième mot de passe du KeePass (calculé uniquement au dernier moment sans jamais être enregistré).
 
 ## Exécution du Projet
