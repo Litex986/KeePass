@@ -26,7 +26,7 @@ Les données du KeePass sont chiffrées en utilisant la fonction HKDF pour déri
 - **KEY2** : Dérivée en deux clés pour chaque site, une pour chiffrer le nom d'utilisateur et l'autre pour le mot de passe.
 - **KEY0** : Utilisée pour chiffrer l'ensemble des données lors de l'enregistrement dans un fichier.
 
-La structure des données est la suivante :
+L'utilisation des clés est la suivante :
 
 ```
 site_Web + username      + password
