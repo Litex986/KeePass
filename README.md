@@ -6,12 +6,11 @@ Ce projet est un gestionnaire de mots de passe (KeePass) développé en Python a
 
 ## Installation
 
-Avant de commencer, assurez-vous d'avoir installé les bibliothèques nécessaires. Vous pouvez les installer en utilisant `pip` :
+Avant de commencer, assurez-vous d'avoir installé les bibliothèques nécessaires ([pycryptodome](https://pypi.org/project/pycryptodome/), [pycryptodomex](https://pypi.org/project/pycryptodomex/), [tkinter](https://docs.python.org/fr/3/library/tkinter.html) et [pyperclip](https://pypi.org/project/pyperclip/)). Vous pouvez les installer en utilisant `pip` :
 
 ```bash
 pip install pycryptodome
 pip install pycryptodomex
-pip install tk
 pip install pyperclip
 ```
 
