@@ -61,6 +61,8 @@ class Interface:
                 self.badPass.config(text="Authenticating...") 
                 self.antiBrutForce = True
                 self.setupPass.after(2000, self.waitSpam)
+            except ValueError:
+                self.badPass.config(text="Les mots de passe ont été corrompu") 
     
     def waitSpam(self) -> None:
         self.badPass.config(text="Mauvais mot de passe") 
